@@ -6,9 +6,10 @@ import os
 
 # 自动生成robot文件类
 class AutoWriteRobot(object):
-    params_path = '../cache/params'
-    document_path = '../cache/document'
-    log_path = '../cache/document'
+    def __init__(self):
+        self.params_path = '../cache/params'
+        self.document_path = '../cache/document'
+        self.log_path = '../cache/document'
 
     @staticmethod
     def fail_print(help_str):
