@@ -1,4 +1,4 @@
-pillow == 6.0.0
+pillow == 8.2.0
 pytesseract == 0.2.6
 requests == 2.21.0
 robot-jsonschemalibrary == 0.1.1
